@@ -27,3 +27,5 @@ curl -X POST http://127.0.0.1:8000/api/v1/snippets/ --data '{"title":"test1","co
 
 ##	参考
 -	[Tutorial 1: 序列化](https://q1mi.github.io/Django-REST-framework-documentation/tutorial/1-serialization_zh/)
+-	[Tutorial 6: 视图集和路由器](https://q1mi.github.io/Django-REST-framework-documentation/tutorial/6-viewsets-and-routers_zh/)
+-	[REST framework tutorial](https://github.com/encode/rest-framework-tutorial)

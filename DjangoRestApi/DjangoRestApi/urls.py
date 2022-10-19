@@ -41,4 +41,19 @@ urlpatterns = [
     path('redoc/', schema_view.with_ui('redoc',
          cache_timeout=0), name='schema-redoc'),
 
+
+    #app
+	url(r'^api/v0/', include('snippets.urls')),
+
+    #app
+    url(r'^api/v1/', include('snippets1.urls')),
+
+	 #app
+    url(r'^api/v2/', include('snippets2.urls')),
+
+	#app
+     url(r'^api/v3/', include('snippets3.urls')),
+
+	       #app
+     url(r'^api/v4/', include('snippets4.urls')),
 ]
